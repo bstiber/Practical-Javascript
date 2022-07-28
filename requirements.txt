@@ -1,9 +1,9 @@
-  Version 1
+Version 1
   
-  Starting with "It should" is a common programmer convention.
+Starting with "It should" is a common programmer convention.
 
-  - []  It should have a place to store todos
-  - []  It should have a way to dislay todos
- -  []  It shoud have a way to add a todo
- -  []  It should have a way to edit a todo 
- -  []  It should have a way to remove a todo
+- [x]  It should have a place to store todos
+- []  It should have a way to dislay todos
+- []  It shoud have a way to add a todo
+- []  It should have a way to edit a todo 
+- []  It should have a way to remove a todo
