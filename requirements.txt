@@ -6,4 +6,4 @@ Starting with "It should" is a common programmer convention.
 - [x]  It should have a way to dislay todos
 - [x]  It shoud have a way to add a todo
 - [x]  It should have a way to edit a todo 
-- []  It should have a way to remove a todo
+- [x]  It should have a way to remove a todo
