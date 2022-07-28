@@ -1,0 +1,68 @@
+Beyond JavaScript Programming Notes (example)
+
+URL to the quiz: https://watchandcode.com/courses/350615/lectures/22887997
+
+var array1 = ['yo', 'hi'];
+array1[0] = array1[1]; // array1 = ['yo', 'hi'] => [?, 'hi'] => ['hi', 'hi']
+// the 1th position is 'hi' so this becomes ['hi', 'hi'], verify using console.log(array1) console.log(array1); // = ['hi', 'hi']
+
+
+var array2 = ['bye', 'later']; 
+array2.splice(1, 1); // = ['bye', 'later'] => ['bye', ?] => ['bye']
+console.log(array2); // = [‘bye’]
+
+
+var array3 = [];
+array3[0] = array1[0];//  array3 = [] => [?] => [‘hi’]
+console.log(array3); // = [‘hi’]
+
+array3[1] = array2[0];  // array3[1] = [] => [‘bye’]
+console.log(array3) // == [‘hi’, ‘bye’]
+
+
+Statement - True/False XX%
+Evidence
+
+After this code runs array3 will be equal to =
+
+[‘yo’, ‘hi’] = false, 100%
+[‘yo’, ‘yo’] = false, 100%
+[‘bye’, ‘bye’] = false, 100%
+[‘hi, ‘bye’] = true, 100%
+Verified array3 = [hi, ‘bye’] using console.log at the very end
+[‘bye’, hi] = false, 100%
+None of the above = false, 100%
+
+Quiz V1 Semicolons
+URL: https://watchandcode.com/courses/350615/lectures/23512381
+
+var todos = ['Item 1', 'Item 2', 'Item 3'];
+console.log(todos);
+todos.push('Item 4');
+todos[0] = 'Item 1 updated';
+todos.splice(0, 1);
+
+
+Statement - True/False XX%
+Evidence
+
+Which of the following statements are true about the code above?
+
+Every ] is followed immediately by a semicolon.
+True/False XX% - False 100%
+Evidence - One ] is followed by a space
+Every ) is followed immediately by a semicolon.
+True/False XX% - True 100%
+Evidence - All three instances are immediately followed by a ;
+Every ' is followed immediately by a semicolon.
+True/False - False 100%
+Evidence - In line one a quote is followed by capital I
+Every line of code ends with a semicolon.
+True/False XX% - True 100%
+Evidence - All five lines have a semicolon at the end.
+None of the above.
+True/False XX% - False 100%
+Evidence - statement 2/4 are true
+
+
+
