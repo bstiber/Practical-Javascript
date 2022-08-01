@@ -15,3 +15,18 @@ function add (myData) {
 add('watch the next video in Practical Javascript');
 console.log(todos);
 
+function edit (myData) {
+   todos[0, 'Item 1 updated'];// todos[0] = myData;
+   console.log(myData);
+}
+
+// edit();
+// edit(0, 'Item 1 updated');
+console.log(todos);
+
+// 
+function testFunction (A, B) {
+   console.log(A);
+   console.log(B);
+} 
+testFunction("Item one", "Second changed Item");

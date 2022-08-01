@@ -1,17 +1,21 @@
 Version 2
-[] it should have a function to add a todo
+
+Objective:
+[X] Rewrite the function 'add' so that when you type 
+- "watch the next video in Practical Javascript'
+the text will push to the end of the todo array. 
+
+[x] it should have a function to add a todo
 [] It should have a function to edit a todo
 [] It should have a function to remove a todo
   
-Starting with "It should" is a common programmer convention.
 
 Version 1
+
+Starting with "It should" is a common programmer convention.
+
 [x] It should have a place to store todos2
 [x] It should have a way to dislay todos
 [x] It shoud have a way to add a todo
 [x] It should have a way to edit a todo 
 [x] It should have a way to remove a todo
-
-Objective:
-[] Rewrite the function 'add' so that when you type "watch the next video in Practical Javascript'
-the text will push to the end of the todo array. 
